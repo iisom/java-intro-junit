@@ -8,7 +8,7 @@ public class LightSaberTest {
 
 
     private LightSaber lightSaber;
-    private float charge;
+    private float charge = 100;
 
     @BeforeEach
     public void setUp() {this.lightSaber = new LightSaber(100);
@@ -33,15 +33,17 @@ public class LightSaberTest {
     }
 
     @Test
-    public void testSetChargeAt80() {
-        lightSaber.setCharge(80.0f);
-        assertEquals(80.0f, lightSaber.getCharge());
+    public void testGetChargeAt80() {
+        charge(80);
+        assertEquals(80, lightSaber.getCharge());
     }
 
     @Test
-    public void testSetColorToPurple() {
+    public void testGetColorChanges() {
         lightSaber.setColor("purple");
         assertEquals("purple", lightSaber.getColor());
+        lightSaber.setColor("green");
+        assertEquals("green", lightSaber.getColor());
     }
 
     @Test
@@ -58,6 +60,21 @@ public class LightSaberTest {
     public void testGetJediSerialNumber() {
         long jediSerialNumber = lightSaber.getJediSerialNumber();
         assertEquals(jediSerialNumber,lightSaber.getJediSerialNumber());}
+
+    @Test
+    public void testUseForHowMuchChargeIsLeft() {
+        lightSaber.use(20);
+        assertEquals(Math.round(96.6), Math.round(lightSaber.getCharge()));
+    }
+
+    @Test
+    public void testGetRemainingMinutes() {
+        lightSaber.use(20);
+        assertEquals(Math.round(290), Math.round(lightSaber.getRemainingMinutes()));
+
+
+    }
+
 
 
 }
