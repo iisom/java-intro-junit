@@ -2,6 +2,7 @@ package com.galvanize;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static java.lang.Math.round;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class LightSaberTest {
@@ -64,17 +65,17 @@ public class LightSaberTest {
     @Test
     public void testUseForHowMuchChargeIsLeft() {
         lightSaber.use(20);
-        assertEquals(Math.round(96.6), Math.round(lightSaber.getCharge()));
+        assertEquals(round(96.6), round(lightSaber.getCharge()));
     }
 
     @Test
     public void testGetRemainingMinutes() {
         lightSaber.use(20);
-        assertEquals(Math.round(290), Math.round(lightSaber.getRemainingMinutes()));
-
-
+        assertEquals(round(290), round(lightSaber.getRemainingMinutes()));
     }
 
-
-
+    @Test
+    public void testRecharge() {
+        assertEquals(charge, round(lightSaber.recharge()));
+    }
 }

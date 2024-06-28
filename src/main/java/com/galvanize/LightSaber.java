@@ -41,8 +41,9 @@ public class LightSaber {
         return ((charge/EFFICIENCY)*30);
     }
 
-    public void recharge(){
+    public float recharge(){
         charge = 100.0f;
+        return charge;
     }
 
 }
