@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Jupiter" tests="9" skipped="0" failures="0" errors="0" time="0.104" hostname="DESKTOP-FIV6KMF" timestamp="2024-06-28T12:50:09">
+<properties>
+<property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+<property name="file.encoding" value="windows-1252"/>
+<property name="file.separator" value="\"/>
+<property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+<property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+<property name="java.class.path" value="C:\Users\ingai\IdeaProjects\java-intro-junit\build\classes\java\test;C:\Users\ingai\IdeaProjects\java-intro-junit\build\resources\test;C:\Users\ingai\IdeaProjects\java-intro-junit\build\classes\java\main;C:\Users\ingai\IdeaProjects\java-intro-junit\build\resources\main;C:\Users\ingai\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-all\1.3\63a21ebc981131004ad02e0434e799fd7f3a8d5a\hamcrest-all-1.3.jar;C:\Users\ingai\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-params\5.10.2\359132c82a9d3fa87a325db6edd33b5fdc67a3d8\junit-jupiter-params-5.10.2.jar;C:\Users\ingai\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-engine\5.10.2\f1f8fe97bd58e85569205f071274d459c2c4f8cd\junit-jupiter-engine-5.10.2.jar;C:\Users\ingai\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-api\5.10.2\fb55d6e2bce173f35fd28422e7975539621055ef\junit-jupiter-api-5.10.2.jar;C:\Users\ingai\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-engine\1.10.2\d53bb4e0ce7f211a498705783440614bfaf0df2e\junit-platform-engine-1.10.2.jar;C:\Users\ingai\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-commons\1.10.2\3197154a1f0c88da46c47a9ca27611ac7ec5d797\junit-platform-commons-1.10.2.jar;C:\Users\ingai\.gradle\caches\modules-2\files-2.1\org.apiguardian\apiguardian-api\1.1.2\a231e0d844d2721b0fa1b238006d15c6ded6842a\apiguardian-api-1.1.2.jar;C:\Users\ingai\.gradle\caches\modules-2\files-2.1\org.opentest4j\opentest4j\1.3.0\152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e\opentest4j-1.3.0.jar;C:\Users\ingai\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-console\1.0.2\2bf2cd18040bfe229bad813c7ab150a0f7ea8153\junit-platform-console-1.0.2.jar;C:\Users\ingai\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-launcher\1.0.2\7cd136827fbfe3e6301b95f0340d654ad54feaa4\junit-platform-launcher-1.0.2.jar;C:\Users\ingai\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-engine\1.0.2\ae5d9b8c44d78da636e4e1e00a907fe0fb7bcb8f\junit-platform-engine-1.0.2.jar;C:\Users\ingai\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-commons\1.0.2\e348a3a67940694f0718d04f9b0784b3dfb7819b\junit-platform-commons-1.0.2.jar;C:\Users\ingai\.gradle\caches\modules-2\files-2.1\org.opentest4j\opentest4j\1.0.0\6f09c598e9ff64bf0ce2fa7e7de49a99ba83c0b4\opentest4j-1.0.0.jar"/>
+<property name="java.class.version" value="55.0"/>
+<property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.23.9-hotspot"/>
+<property name="java.io.tmpdir" value="C:\Users\ingai\AppData\Local\Temp\"/>
+<property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.23.9-hotspot\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ingai\bin;C:\Program Files\Eclipse Adoptium\jdk-11.0.23.9-hotspot\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.4\bin;C:\Users\ingai\AppData\Local\Microsoft\WindowsApps;C:\Users\ingai\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ingai\AppData\Roaming\npm;."/>
+<property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+<property name="java.runtime.version" value="11.0.23+9"/>
+<property name="java.specification.maintenance.version" value="2"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="11"/>
+<property name="java.vendor" value="Eclipse Adoptium"/>
+<property name="java.vendor.url" value="https://adoptium.net/"/>
+<property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+<property name="java.vendor.version" value="Temurin-11.0.23+9"/>
+<property name="java.version" value="11.0.23"/>
+<property name="java.version.date" value="2024-04-16"/>
+<property name="java.vm.compressedOopsMode" value="Zero based"/>
+<property name="java.vm.info" value="mixed mode"/>
+<property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="11"/>
+<property name="java.vm.vendor" value="Eclipse Adoptium"/>
+<property name="java.vm.version" value="11.0.23+9"/>
+<property name="jdk.debug" value="release"/>
+<property name="line.separator" value="
+"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Windows 10"/>
+<property name="os.version" value="10.0"/>
+<property name="path.separator" value=";"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.23.9-hotspot\bin"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value="amd64"/>
+<property name="sun.desktop" value="windows"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="org.junit.platform.console.ConsoleLauncher --details NONE --scan-class-path C:\Users\ingai\IdeaProjects\java-intro-junit\build\classes\java\assessment;C:\Users\ingai\IdeaProjects\java-intro-junit\build\resources\assessment;C:\Users\ingai\IdeaProjects\java-intro-junit\build\classes\java\main;C:\Users\ingai\IdeaProjects\java-intro-junit\build\resources\main;C:\Users\ingai\IdeaProjects\java-intro-junit\build\classes\java\test;C:\Users\ingai\IdeaProjects\java-intro-junit\build\resources\test -n ^.*Tests?$ --reports-dir C:\Users\ingai\IdeaProjects\java-intro-junit\build\test-results\junit-platform"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="Cp1252"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value=""/>
+<property name="user.country" value="US"/>
+<property name="user.dir" value="C:\Users\ingai\IdeaProjects\java-intro-junit"/>
+<property name="user.home" value="C:\Users\ingai"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="ingai"/>
+<property name="user.script" value=""/>
+<property name="user.timezone" value="America/New_York"/>
+<property name="user.variant" value=""/>
+</properties>
+<testcase name="testGetChargeAt70()" classname="com.galvanize.LightSaberTest" time="0.03">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.galvanize.LightSaberTest]/[method:testGetChargeAt70()]
+display-name: testGetChargeAt70()
+]]></system-out>
+</testcase>
+<testcase name="testGetChargeAt80()" classname="com.galvanize.LightSaberTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.galvanize.LightSaberTest]/[method:testGetChargeAt80()]
+display-name: testGetChargeAt80()
+]]></system-out>
+</testcase>
+<testcase name="testJediSerialNumber()" classname="com.galvanize.LightSaberTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.galvanize.LightSaberTest]/[method:testJediSerialNumber()]
+display-name: testJediSerialNumber()
+]]></system-out>
+</testcase>
+<testcase name="testRecharge()" classname="com.galvanize.LightSaberTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.galvanize.LightSaberTest]/[method:testRecharge()]
+display-name: testRecharge()
+]]></system-out>
+</testcase>
+<testcase name="testGetColorChanges()" classname="com.galvanize.LightSaberTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.galvanize.LightSaberTest]/[method:testGetColorChanges()]
+display-name: testGetColorChanges()
+]]></system-out>
+</testcase>
+<testcase name="testUseForHowMuchChargeIsLeft()" classname="com.galvanize.LightSaberTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.galvanize.LightSaberTest]/[method:testUseForHowMuchChargeIsLeft()]
+display-name: testUseForHowMuchChargeIsLeft()
+]]></system-out>
+</testcase>
+<testcase name="testGetRemainingMinutes()" classname="com.galvanize.LightSaberTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.galvanize.LightSaberTest]/[method:testGetRemainingMinutes()]
+display-name: testGetRemainingMinutes()
+]]></system-out>
+</testcase>
+<testcase name="testGetJediSerialNumber()" classname="com.galvanize.LightSaberTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.galvanize.LightSaberTest]/[method:testGetJediSerialNumber()]
+display-name: testGetJediSerialNumber()
+]]></system-out>
+</testcase>
+<testcase name="applicationTest()" classname="com.galvanize.ApplicationTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.galvanize.ApplicationTest]/[method:applicationTest()]
+display-name: applicationTest()
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>
